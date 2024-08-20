@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/product.dart';  // Supondo que você tenha uma classe Product.
+import '../models/product.dart';  
 import 'package:flutter/foundation.dart';
 import '../models/cart.dart';
 

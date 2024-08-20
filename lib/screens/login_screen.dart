@@ -126,7 +126,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12.0),
                       ),
-                      elevation: 5, // Sombra
+                      elevation: 5,
                     ),
                     child: const Text('Login'),
                   ),

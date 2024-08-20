@@ -5,7 +5,6 @@ class Cart {
   List<CartItem> items = [];
 
   void addItem(Product product) {
-    // Verifica se o produto já está no carrinho
     CartItem? existingItem = items.firstWhere(
         (item) => item.product.id == product.id,
         orElse: () => CartItem(product: Product(id: 0, name: "", price: 0.00, description: "", imagePath: "")));

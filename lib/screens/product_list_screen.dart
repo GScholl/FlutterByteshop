@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app_pdm/screens/cart_screen.dart';
 import '../services/product_database_helper.dart';
 import '../models/product.dart';
-import '../widgets/product_card.dart'; // Importa o ProductCard
+import '../widgets/product_card.dart'; 
 import 'add_product_screen.dart';
 
 class ProductListScreen extends StatefulWidget {
